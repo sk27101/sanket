@@ -6,15 +6,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sanket Online Website</title>
+    <link rel="shortcut icon" href="favicon.png" type="image">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
     <style>
         * {
             margin: 0;
             padding: 0;
+            /* font-family: ubuntu, sans-serif; */
         }
 
         header {
 
             background-color: rgb(107, 107, 248);
+            /* background-color: black; */
+            height: 10vh;
         }
 
         nav {
@@ -31,26 +38,36 @@
         nav ul li {
             list-style: none;
             padding: 0 23px;
+            font-size: 19px;
         }
 
         nav ul li a {
             color: white;
             text-decoration: none;
+            font-family: ubuntu, sans-serif;
+        }
+
+        nav ul li a:hover {
+            font-weight: bolder;
         }
 
         main {
-            height: 75vh;
+            height: 158vh;
             background-color: white;
             color: black;
+
         }
 
-        footer {
-            height: 15vh;
+        .fot {
+            /* height: 16vh; */
             background-color: rgb(107, 107, 248);
             color: white;
             display: flex;
             justify-content: center;
             align-items: center;
+            font-size: 24px;
+
+
         }
 
         .search {
@@ -73,15 +90,122 @@
             border: 2px solid white;
         }
 
+        .btn:hover {
+            font-weight: bolder;
+        }
 
         .login {
-            margin: 0px 428px;
-            padding: 1px 9px;
+            margin: 0px 104px;
+            padding: 1px 13px;
             border-radius: 1px;
             border: 2px solid white;
         }
-       .image img{
 
+        .login:hover {
+            font-weight: bolder;
+            cursor: pointer;
+        }
+
+        .exam a:hover {
+            font-weight: bolder;
+            font-size: 23px;
+
+        }
+
+        .search p {
+            color: white;
+            display: flex;
+            align-items: center;
+            margin: 0px 75px;
+            font-size: 33px;
+        }
+
+        .exam {
+            background-color: rgb(241, 77, 77);
+            /* font-family: 'Ubuntu', sans-serif; */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 12vh;
+            font-size: 30px;
+            color: white;
+            height: 13vh;
+        }
+
+        .btn:hover {
+            cursor: pointer;
+        }
+
+        .exam p {
+
+            font-size: 35px;
+            margin: 0px 350px;
+            color: white;
+            padding: 2px 16px;
+        }
+
+        .exam a {
+            color: white;
+            font-size: 20px;
+            text-decoration: none;
+            margin: 10px -26px;
+        }
+
+        .para {
+            height: 42px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 29px;
+        }
+
+        .para {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .container {
+            display: flex;
+        }
+
+        .image {
+            margin: 0 55px;
+            padding: 26px 0px;
+
+        }
+
+        .image img:hover {
+            width: 190px;
+            height: 190px;
+            cursor: pointer;
+        }
+
+        .lines {
+            font-family: ubuntu, sans-serif;
+            padding: 0px 27px;
+        }
+
+        footer {
+            height: 12vh;
+            /* background-color: var(--main-bg-color);  */
+            color: white;
+            /* font-family: 'Lato', sans-serif; */
+            /* font-family: 'Ubuntu', sans-serif; */
+        }
+
+        .write {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 29px;
+            margin: 18px 0 0 0;
+            /* font-family: ubuntu, sans-serif; */
+        }
+
+        .plines {
+            padding: 0 2px;
+            font-family: ubuntu, sans-serif;
         }
     </style>
 </head>
@@ -94,20 +218,155 @@
                 <li><a href="about.html">About</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
+
             <div class="search"><input type="text" placeholder="Search here">
                 <button class="btn">Search</button>
+                <p>SANKET <sub>.com</sub></p>
                 <button class="login">Login</button>
             </div>
+
         </nav>
     </header>
     <main>
-<div class="image">
-    <img src="sk.jpg" alt="not loading">
-</div>
+        <div class="exam">
+            <p>BOOKS FOR ALL !!!</p>
+            <a href="www.sanket.com">click here to register </a>
+        </div>
+        <div class="write">For Kids: Books To Read</div>
+        <div class="container">
+            <div class="image">
+                <img src="https://m.media-amazon.com/images/I/81Gbz0XnW7L._AC_UY218_.jpg" width="160px" height="165px"
+                    alt="">
+                <div class="lines">
+                    <p>Max 20%off</p>
+                    <p> Available Now</p>
+                </div>
+            </div>
+            <div class="image">
+                <img src="https://m.media-amazon.com/images/I/71FGuZ15wHL._AC_UY218_.jpg" width="160px" height="170px"
+                    alt="">
+                <div class="lines">
+                    <p>Max 5%off</p>
+                    <p> Only 2 left !!!</p>
+                </div>
+            </div>
+            <div class="image">
+                <img src="https://m.media-amazon.com/images/I/81f9D2P1xZL._AC_UY218_.jpg" width="160px" height="160px"
+                    alt="">
+                <div class="plines">
+                    <p>Max 38%off</p>
+                    <p>Currently Unavailable</p>
+                </div>
+            </div>
+            <div class="image">
+                <img src="	https://m.media-amazon.com/images/I/81HdBvPy2vS._AC_UL320_.jpg" width="160px" height="160px"
+                    alt="">
+                <div class="lines">
+                    <p>Max 29%off</p>
+                    <p> Available Now</p>
+                </div>
+            </div>
+            <div class="image">
+                <img src="https://m.media-amazon.com/images/I/71lRdTjFUhL._AC_UY218_.jpg" width="160px" height="160px"
+                    alt="">
+                <div class="lines">
+                    <p>Max 51%off</p>
+                    <p> Available Now</p>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="write">For Girls: Books To Read</div>
+        <div class="container">
+            <div class="image">
+                <img src="https://m.media-amazon.com/images/I/41+CqNWoutS._SX460_BO1,204,203,200_.jpg" width="160px"
+                    height="160px" alt="">
+                <div class="lines">
+                    <p>Max 36%off</p>
+                    <p> Only 8 left !!!</p>
+                </div>
+            </div>
+            <div class="image">
+                <img src="	https://m.media-amazon.com/images/I/71gs+lqkk9L._AC_UY218_.jpg " width="160px" height="160px"
+                    alt="">
+                <div class="lines">
+                    <p>Max 50%off</p>
+                    <p> Available Now</p>
+                </div>
+            </div>
+            <div class="image">
+                <img src="https://m.media-amazon.com/images/I/71ELALq3HnL._AC_UY218_.jpg" width="160px" height="160px"
+                    alt="">
+                <div class="lines">
+                    <p>Max 19%off</p>
+                    <p> Available Now</p>
+                </div>
+            </div>
+            <div class="image">
+                <img src="https://m.media-amazon.com/images/I/51np7YlUSQL._AC_UY218_.jpg " width="160px" height="160px"
+                    alt="">
+                <div class="plines">
+                    <p>Max 23%off</p>
+                    <p> Currently Unavailable</p>
+                </div>
+            </div>
+            <div class="image">
+                <img src="	https://m.media-amazon.com/images/I/51CmZgnxeXL._AC_UY218_.jpg" width="160px" height="160px"
+                    alt="">
+                <div class="lines">
+                    <p>Max 65%off</p>
+                    <p> Available Now</p>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="write">For Legends: Books To Read</div>
+        <div class="container">
+            <div class="image">
+                <img src="https://m.media-amazon.com/images/I/91n7e4ULsKL._AC_UY218_.jpg" width="160px" height="170px"
+                    alt="">
+                <div class="lines">
+                    <p>Max 13%off</p>
+                    <p> Available Now</p>
+                </div>
+            </div>
+            <div class="image">
+                <img src="	https://m.media-amazon.com/images/I/51KnFguwOPL._AC_UY218_.jpg" width="160px" height="170px"
+                    alt="">
+                <div class="lines">
+                    <p>Max 29%off</p>
+                    <p> Only 3 left !!!</p>
+                </div>
+            </div>
+            <div class="image">
+                <img src="	https://m.media-amazon.com/images/I/71NDa85qT7L._AC_UY218_.jpg" width="160px" height="170px"
+                    alt="">
+                <div class="lines">
+                    <p>Max 13%off</p>
+                    <p> Available Now</p>
+                </div>
+            </div>
+            <div class="image">
+                <img src="https://m.media-amazon.com/images/I/81oRCl160LL._AC_UY218_.jpg" width="160px" height="170px"
+                    alt="">
+                <div class="lines">
+                    <p>Max 67%off</p>
+                    <p> Available Now</p>
+                </div>
+            </div>
+            <div class="image">
+                <img src="https://m.media-amazon.com/images/I/51jxfa8b1oL._AC_UY218_.jpg
+  " width="160px" height="170px" alt="">
+                <div class="lines">
+                    <p>Max 73%off</p>
+                    <p> Available Now</p>
+                </div>
+            </div>
+        </div>
     </main>
-    <footer>
+    <footer class="fot">
         <p>COPYRIGHTS &copy; SANKET.com</p>
     </footer>
-</body>
 
+</body>
 </html>
